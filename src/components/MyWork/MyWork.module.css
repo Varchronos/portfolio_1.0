@@ -1,0 +1,81 @@
+.workSection {
+    display: flex;
+    flex-direction: column;
+    margin: 10.5rem 11.3rem 0 11.3rem;
+}
+
+.placeholder {
+    align-self: flex-end;
+    color: #283618;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: none;
+    letter-spacing: 0.06rem;
+}
+
+.workGroup {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    color: #283618;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 135%;
+    /* 3.375rem */
+    letter-spacing: 0.05rem;
+}
+
+.linkGroup {
+    margin-top: 4.5rem;
+    display: flex;
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+
+.linkGroup a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 14.5rem;
+    height: 20.5rem;
+    transition: scale 0.2s ease-in;
+}
+.linkGroup a:hover{
+    scale: 1.1;
+}
+
+
+.project1{
+    background: url(../../assets/project1.png) ;
+}
+.project2{
+    background: url(../../assets/project2.png) ;
+}
+.project3{
+    background: url(../../assets/project3.png) ;
+}
+
+
+@media screen and (max-width:860px)
+{
+    .linkGroup {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .placeholder{
+        display: none;
+    }
+}

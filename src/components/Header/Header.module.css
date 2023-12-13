@@ -1,0 +1,130 @@
+@keyframes appear {
+  0% {
+    opacity: 20%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+.landingPage {
+  margin-top: 13.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.headGroup{
+  width: 100vw;
+}
+
+.heading {
+  animation: 1s ease-out 0s 1 appear;
+  color: #283618;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.tagline {
+  animation: 1s ease-out 0s 1 appear;
+  text-align: center;
+  color: #BC6C25;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: none;
+  margin-top: 1rem;
+  letter-spacing: 0.06rem;
+}
+
+.tagline span {
+  color: #606C38;
+}
+
+.homeButtons {
+  animation: 1s ease-out 0s 1 appear;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.75rem;
+}
+
+.homeButtons {
+  margin-top: 4rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.75rem;
+}
+
+.emailBtn {
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 3.125rem;
+  background: #606C38;
+  transition: background-color 0.3s;
+}
+
+.workBtn {
+
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 1rem 3rem;
+  border: none;
+  gap: 0.625rem;
+  border-radius: 3.125rem;
+  background: #BC6C25;
+  transition: background-color 0.3s;
+}
+
+.emailBtn:hover {
+  background-color: #283618;
+  cursor: pointer;
+}
+
+.workBtn:hover {
+  background-color: #606C38;
+  cursor: pointer;
+}
+
+.link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media screen and (max-width:860px) {
+  
+  .heading {
+    color: #283618;
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 0.8rem;
+  }
+
+  .homeButtons {
+    margin: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .emailBtn {
+    font-size: 0.8rem;
+  }
+
+  .workBtn {
+
+    font-size: 0.8rem;
+  }
+
+}

@@ -1,0 +1,50 @@
+.nav{
+  position: fixed;
+  top: 0;
+  transition: top 0.7s ease 0s, opacity 0.5s ease;
+}
+.hidden{
+  top: -100px;
+  opacity: 10%;
+}
+.linkGroup {
+    margin-top: 1rem;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  
+    border-radius: 2.5rem;
+    background: #d3954f;
+  }
+  
+  .linkGroup .link {
+    display: flex;
+    flex-direction: row;
+    padding: 0.625rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    text-decoration: none;
+    border-radius: 1.25rem;
+  
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal;
+    transition: color 0.2s ease-in, background-color 0.2s ease-out; 
+  }
+  .inactive{
+    color: white;
+  }
+  .active{
+    background-color: #606C38;
+    color: white;
+    border-radius: 1.25rem;
+  }
+
+  @media screen and (max-width:860px){
+    .nav{
+      display: none;
+    }
+  }

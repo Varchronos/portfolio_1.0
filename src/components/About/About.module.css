@@ -1,0 +1,147 @@
+.aboutSection {
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    margin: 20rem 11.3rem 0 11.3rem;
+}
+
+.placeholder {
+    align-self: flex-end;
+    color: #283618;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: none;
+    letter-spacing: 0.06rem;
+}
+
+.aboutGroup {
+    margin-top: 3.5rem;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.textGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4rem;
+}
+
+.text {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-shrink: 0;
+    max-width: 31.25rem;
+}
+
+.para {
+    color: #283618;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: none;
+    letter-spacing: 0.03rem;
+    margin: 0;
+}
+
+.subPara {
+    color: #BC6C25;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 135%;
+    /* 1.35rem */
+    letter-spacing: 0.02rem;
+    margin: 0;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: none;
+
+    padding: 1rem 3rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3.125rem;
+    background: #606C38;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #283618;
+    cursor: pointer;
+}
+
+.link {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.image {
+    display: inline-block;
+    background: url(../../assets/profile.jpg);
+    min-width: 12.5rem;
+    min-height: 12.5rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media screen and (max-width:860px) {
+    .aboutSection {
+        margin: 0;
+        margin-top: 20rem;
+
+    }
+
+    .aboutGroup {
+        margin-top: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textGroup {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .para {
+
+        font-size: 1rem;
+
+    }
+
+    .subPara {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        color: #FFF;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: none;
+
+        padding: 1rem 3rem;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 3.125rem;
+        background: #606C38;
+        transition: background-color 0.3s;
+    }
+
+}

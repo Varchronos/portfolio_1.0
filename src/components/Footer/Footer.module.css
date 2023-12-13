@@ -1,0 +1,109 @@
+.footerSection {
+  margin-top: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.callToAction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  color: #283618;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.tagline {
+  text-align: center;
+  color: #BC6C25;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: none;
+  margin-top: 1rem;
+  letter-spacing: 0.06rem;
+}
+
+.tagline span {
+  color: #606C38;
+}
+
+.emailBtn {
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 3.125rem;
+  background: #606C38;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.emailBtn:hover {
+  background-color: #283618;
+  cursor: pointer;
+}
+
+.socialsGroup {
+  margin-top: 11.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.footerText {
+  max-width: 14.25rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #606C38;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #BC6C25;
+}
+
+.resumeLink {
+  color: #FFF;
+  text-decoration: none;
+}
+
+@media screen and (max-width:860px) {
+
+  .heading {
+    color: #283618;
+    font-size: 2.5rem;
+  }
+
+  .tagline {
+    font-size: 0.8rem;
+  }
+
+
+  .emailBtn {
+    font-size: 0.8rem;
+  }
+  .footerText {
+    font-size: 0.7rem;
+  }
+
+}
