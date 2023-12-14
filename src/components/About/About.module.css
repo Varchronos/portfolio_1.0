@@ -72,6 +72,7 @@
     border-radius: 3.125rem;
     background: #606C38;
     transition: background-color 0.3s;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -79,10 +80,6 @@
     cursor: pointer;
 }
 
-.link {
-    color: #FFF;
-    text-decoration: none;
-}
 
 
 .image {

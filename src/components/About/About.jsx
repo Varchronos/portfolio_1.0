@@ -11,7 +11,7 @@ const About = () => {
                             <p className={styles.para}>Hi! I am Dhruv. Almost a year ago I discovered that I love working on the web. And now I am here...</p>
                             <p className={styles.subPara}>I am a full-Stack Web Developer and also design User Interfaces as a hobby. I love to work on projects that have a simple yet intuitive approach to problems.</p>
                         </div>
-                        <button className={styles.btn}><a href="#footer" className={styles.link}>Lets connect</a></button>
+                        <a href="#footer" className={styles.btn}>Lets connect</a>
                     </div>
                     <div className={styles.image}></div>
                 </div>
