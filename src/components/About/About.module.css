@@ -115,6 +115,9 @@
         gap: 4rem;
         margin-bottom: 3rem;
     }
+    .placeholder{
+        display: none;
+    }
 
     .para {
 
