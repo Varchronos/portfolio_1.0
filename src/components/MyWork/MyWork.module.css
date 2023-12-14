@@ -71,6 +71,10 @@
 
 @media screen and (max-width:860px)
 {
+    .workSection{
+        margin-left: 0;
+        margin-right: 0;
+    }
     .linkGroup {
         flex-wrap: wrap;
         gap: 1rem;
